@@ -1,5 +1,5 @@
 const loginrouter = require("express").Router();
-const SignupModel = require("../Models/signup");
+const SignupModel = require("../Models/Signup");
 const { compareStrings, generateJSONToken } = require("../Utils/Authutils");
 
 loginrouter.get("/getAllUser", async function (req, res, next) {
