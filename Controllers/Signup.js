@@ -1,6 +1,7 @@
 const signuprouter = require("express").Router();
-const SignupModel = require("../Models/signup");
 const { hashString } = require("../Utils/Authutils");
+const SignupModel = require("../Models/Signup");
+
 
 /**
  * CREATE A NEW ACCOUNT

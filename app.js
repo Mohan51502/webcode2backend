@@ -20,6 +20,8 @@ app_server.use(bodyparser.urlencoded({ extended: true }));
 app_server.use("/api/v1/signup", signup_controller);
 app_server.use("/api/v1/login", signin_controller);
 app_server.use("/api/v1/product", Product_controller);
+app_server.use("/api/v1/product/validaty",checkJWTValidaty, Product_controller);
+
 
 
 
