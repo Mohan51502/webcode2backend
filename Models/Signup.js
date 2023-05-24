@@ -7,11 +7,11 @@ const SignupSchema = mongoose.Schema({
   },
   userEmailId: {
     type: String,
-    required: true,
+    required: false,
   },
   phoneNumber: {
     type: String,
-    required: true,
+    required: false,
   },
   role: {
     type: String,
